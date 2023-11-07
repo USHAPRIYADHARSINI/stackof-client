@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.side{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 1rem;
+  /* width: 100vw; */
+  background-color: rgb(235, 235, 238);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dialog{
+  padding: 1rem;
+}
+.routing{
+  background-color: white;
+  margin-top: 0;
+  /* width: fit-content; */
+  /* width: 50vw;
+  height: 50vh; */
+}
+.home{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+.home p{
+  font-size: small;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userinfo{
+  display:flex ;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1vw;
+}
+.pp{
+  width:4vw;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 5%;
+}
+.pps{
+  width:2vw;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
 }

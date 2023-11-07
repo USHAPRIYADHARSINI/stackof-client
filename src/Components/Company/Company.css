@@ -1,0 +1,68 @@
+.companypage{
+    margin: 0;
+    margin: 2vw;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.classp{
+    color: gray;
+    font-size: small;
+}
+.companycard{
+    display:flex;
+    flex-direction: row;
+    /* height: 50px; */
+    max-height: fit-content;
+    gap: 1rem;
+    font-size:medium;
+    /* border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(211, 209, 209);
+    margin: 10px; */
+}
+.companycontainer{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+.allcompany{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.logo{
+    height: 60px;
+    aspect-ratio:1/1;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+}
+.companyname{
+    font-size: 15px;
+    color:  rgb(26, 128, 168);
+    margin: 0;
+}
+.companylocation{
+    font-size:13px;
+    color: gray;
+    margin: 0;
+}
+.obj{
+    font-size:13px;
+    color: black;
+    margin: 0;
+    font-weight: 200;
+}
+.field{
+    font-size: 15px;
+    color:  rgb(26, 128, 168);
+    margin: 0;
+    background-color: rgba(61, 179, 226, 0.521);
+    padding: 3px;
+    border-radius: 3px;
+    width: fit-content;
+}

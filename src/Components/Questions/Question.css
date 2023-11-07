@@ -1,0 +1,236 @@
+.questions{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.containerq{
+    display: flex;
+    flex-direction:row;
+    /* background-color: blue; */
+    flex-wrap: wrap;
+    margin: 2vw;
+}
+.questioncont{
+    width: 60%;
+}
+.allquestion{
+   display:flex;
+   flex-direction: row;
+   gap: 1rem;
+   flex-wrap: wrap;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.flex > p {
+    margin: 0%;
+}
+.bd, .be :hover{
+    cursor: pointer;
+    margin-right: 10px;
+}
+.quescard{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 1rem;
+    border:0px;
+    border-bottom: 1px;
+    border-color: rgb(185, 184, 184);
+    border-style:solid;
+    padding: 1rem;
+}
+.box{
+    width: 25%;
+    max-height: 100%;
+    background-color: rgb(250, 201, 201);
+    padding: 1rem;
+    margin: 2vw;
+    margin-top: 0;
+}
+.heading{
+    margin: 0;
+}
+.heading1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    font-weight: 200;
+}
+.col3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+    align-items: end;
+    justify-content: flex-end;
+}
+.items{
+    font-size:small;
+    color: grey;
+    margin-top: 0;
+}
+.user{
+    font-size: x-small;
+    color: black;
+}
+.userin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+.bold{
+    color: black;
+}
+.col1{
+    text-align: right;
+}
+.col2{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color:  rgb(40, 169, 219);
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col2 > p {
+    margin: 0;
+}
+.tag{
+    background-color:  rgb(197, 232, 247);
+    color: rgb(80, 137, 161);
+    width: fit-content;
+    padding: 0.3rem;
+    margin: 0;
+    height: fit-content;
+}
+.tagsline{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+.blue{
+    color: rgb(40, 169, 219);
+    margin: 0;
+}
+.time{
+    margin: 0;
+}
+.button{
+    background-color: rgb(18, 172, 233);
+    color: white;
+    font-size: small;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color:  rgb(17, 111, 148);
+    cursor: pointer;
+}
+.answerp{
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    padding-left: 0;
+    gap: 30px;
+}
+.allanswer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:.5rem ;
+    width: 650px;
+}
+.ques > h2{
+    font-weight: 400;
+}
+.ques > .col{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: start;
+}
+.answerp > .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+.top > .ht{
+    max-height: 40px;
+}
+.anscard > .row3{
+    align-self: flex-end;
+}
+.comans{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: flex-start; */
+    width: 650px;
+}
+.oneques{
+    display: flex;
+    flex-direction: row;
+    /* width: fit-content; */
+    /* margin: 0%; */
+}
+.anslen{
+    padding: 30px;
+    color: gray;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.comans > .button{
+    width: fit-content;
+    padding: 10px;
+}
+.anstop{
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ques{
+    width: 650px;
+}
+.wid{
+    width: 100%;
+}
+.anscard{
+    width: 650px;
+}
+.row2{
+    width: 100%;
+}
+.like:active{
+    color: rgb(0, 99, 248);
+}
+.hovering:hover{
+    cursor: pointer;
+    color: rgb(0, 99, 248);
+}
+.likecomp{
+    display: flex;
+    flex-direction: row;
+    font-size:small;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+.arrows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
