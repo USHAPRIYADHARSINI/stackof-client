@@ -164,7 +164,7 @@ function Question({ setQuestionId }) {
                 <Avatar />
               )}
               {question.user?.name ? (
-                <p className="user blue">{user.name}</p>
+                <p className="user blue">{question.user.name}</p>
               ) : (
                 // <p>{user.email.split("@")[0]}</p>
                 null
